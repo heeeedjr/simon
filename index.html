@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Simon</title>
         <link rel="icon" href="favicon.ico"/>
+        <!--Adding Login.js-->
+        <script src="login.js"></script>
         <!--CSS-->
         <link rel="stylesheet" href="main.css"/>
         <!--Bootstrap-->
@@ -14,8 +16,6 @@
             integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
             crossorigin="anonymous"
         />
-        <!--Adding Login.js-->
-        <script src="login.js"></script>
     </head>
     <body class="bg-dark text-light">
         <header class="container-fluid">
@@ -43,7 +43,7 @@
                 <h1>Welcome</h1>
                 <p>Login to play!</p>
                 <div>
-                    <input id="name" type="text" placeholder="Your name here">
+                    <input type="text" id="name" placeholder="Your name here">
                     <button class="btn btn-primary" onclick="login()">Login</button>
                 </div>
             </div>
